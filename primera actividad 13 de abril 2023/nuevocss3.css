@@ -1,0 +1,70 @@
+body {
+text-align: center;
+}
+
+#principal {
+display: block;
+width: 500px;
+margin: 50px auto;
+padding: 15px;
+text-align: center;
+border: 29px solid #999999;
+background: #DDDDDD;
+border-image: url("diamonds.png") 29 stretch;
+
+
+}
+
+
+
+
+
+#titulo {
+font: bold 36px MiNuevaFuente, verdana, sans-serif;
+ text-shadow: rgba(0,0,0,0.5) 4px 4px 6px;
+color: hsla(120, 100%, 50%, 0.5);
+}
+
+@font-face {
+font-family: 'MiNuevaFuente';
+src: url('font.ttf');
+}
+
+
+#t1{
+    background: black;
+    color: red;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 300px 0px 0px 0px;
+    font-family: fantasy;
+
+}
+#t2{
+    background: black;
+    color: pink;
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+    margin: 0px 300px 0px 0px;
+
+}
+#t3{
+    background: black;
+    color: green;
+    height: 100px;
+    width: 200px;
+    border-radius: 30px;
+    margin: 0px 0px 300px 0px;
+
+}
+#t4{
+    background:yellow;
+    color: blue;
+    height: 400px;
+    width: 600px;
+    border-radius: 40px;
+    margin: 0px 0px 0px 300px;
+
+}
