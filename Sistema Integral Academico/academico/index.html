@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <meta name="description" content="ejemplo etiquetas html">
+    <meta name="keywords" content="html5,javascript,xml,css">
+        <title>SISTEMA INTEGRAL ACADEMICO</title>
+        <link rel="stylesheet" href="../css/miestilos.css"> 
+        <link rel="stylesheet" href="../css/formulario.css"> 
+    </head>
+    <body>    
+        <div id="agrupar">
+         <header id="cabecera">
+            <h1 class="texto1">ACADEMICO</h1>
+         </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">principal</a> </li>
+                <li><a href="administrativo/index.html">ADMINISTRATIVO</a></li>
+                <li>videos</li>
+                <li>contactos</li>
+            </ul>
+        </nav> 
+        <section id="seccion">
+            <article>
+                <header>
+                    <hgroup>
+                    <h1>título del mensaje uno</h1>
+                    <h2>subtítulo del mensaje uno</h2>
+                    </hgroup>
+                </header>
+                este es el texto de mi primer mensaje
+                <form id="datospersonales" action="../index.html">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <ol>
+                            <li>
+                                <label for="">Nombre:</label>
+                                <input id="nombre" name="nombre" type="text"
+                                 placeholder=" Digite el Nombre" required>
+                            </li>
+                            <li>
+                                <label for="">Email:</label>
+                             <input id="email" name="email" type="email" placeholder="examplo@mi.com">
+                            </li>
+                            <li>
+                                <label for="">Teléfono</label>
+                            <input id="telefono" name="telefono" placeholder="312686868" type="number">
+                            </li>
+                        </ol> 
+                    </fieldset>
+                 <button type="submit">Enviar</button>
+                </form>
+                <footer>
+                    <p style="font-size: 20px; color: red;">comentario(1)</p>
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <hgroup>
+                    <h1>título del mensaje dos</h1>
+                    <h2>subtítulo del mensaje dos</h2>
+                    </hgroup>
+                </header>
+                este es el texto de mi segundo mensaje
+                <figure>
+                    <img src="adsi75.jpg" width="200px">
+                    <figcaption> 
+                        esta es la imagen del primer mensaje
+                    </figcaption>
+                </figure>
+                <footer><p>comentario(0)</p></footer>
+            </article>
+        </section>
+        <aside id="columna">
+            <blockquote>Mensaje número1</blockquote>
+            <blockquote>Mensaje número2</blockquote>
+        </aside>
+        <footer id="pie">Derechos Reservados &copy 2023-2025</footer>
+    </div>
+    </body>
+</html>

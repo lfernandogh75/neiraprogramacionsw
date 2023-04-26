@@ -1,0 +1,37 @@
+form#datospersonales{
+    margin:auto;
+    background: steelblue;
+    color: white;
+    font-size:12px;
+    padding: 30px;
+    width: 350px;
+    border:solid 10px lightsteelblue;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+
+}
+form#datospersonales fieldset{
+    border :none;
+}
+form#datospersonales input{
+   font-size: 12px;
+   border:solid 1px lightsteelblue;
+   border-radius: 3px; 
+   -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    float: right;
+    margin-right:15px;
+    width: 200px;
+
+}
+form#datospersonales ol li{
+    line-height: 25px;
+    list-style: none;
+
+}
+input:required{
+    outline: 1px solid red;
+}
+
+
